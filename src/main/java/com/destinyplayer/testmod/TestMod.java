@@ -16,10 +16,10 @@ public class TestMod {
     public static final String MODNAME = "Test Mod";
     public static final String VERSION = "0.1";
 
-    @SidedProxy
+    @SidedProxy(clientSide = "com.destinyplayer.testmod.proxy.ClientProxy",serverSide = "com.destinyplayer.testmod.proxy.ServerProxy")
     public static CommonProxy proxy;
 
-    @Mod.Instance
+    @Mod.Instance(MODID)
     public static TestMod instance;
 
     @Mod.EventHandler
