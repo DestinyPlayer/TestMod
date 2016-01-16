@@ -1,0 +1,16 @@
+[
+{
+  "modid": "TestMod",
+  "name": "Test Mod",
+  "description": "Just a test mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["DestinyPlayer"],
+  "credits": "A test guy made this test mod",
+  "logoFile": "assets/testmod/logo/logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
